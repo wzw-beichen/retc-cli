@@ -1,0 +1,28 @@
+{
+  "name": "retc-cli",
+  "version": "1.0.2",
+  "description": "retc-cli template",
+  "type": "module",
+  "bin": {
+    "init": "bin/index.js"
+  },
+  "author": {
+    "name": "zwei",
+    "email": "277319623@qq.com"
+  },
+  "homepage": "https://github.com/wzw-beichen/retc-cli",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "commander": "^10.0.1",
+    "download-git-repo": "^3.0.2",
+    "inquirer": "^9.2.1",
+    "log-symbols": "^5.1.0",
+    "ora": "^6.3.0"
+  },
+  "keywords": [
+    "retc",
+    "retc-cli",
+    "r-cli"
+  ]
+}
